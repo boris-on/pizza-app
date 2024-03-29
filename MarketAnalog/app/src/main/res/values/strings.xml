@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name" translatable="false">MarketAnalog</string>
+    <string name="main">Main</string>
+    <string name="search">Search</string>
+    <string name="basket">Basket</string>
+    <string name="profile">Profile</string>
+    <string name="add_to_cart">Add to cart</string>
+    <string name="error">Oops Error! Please try again later</string>
+    <string name="try_again">TRY AGAIN</string>
+    <string name="pay">Pay: </string>
+    <string name="paymentScreen">Payment Screen</string>
+    <string name="email">Email</string>
+    <string name="adress">Adress</string>
+    <string name="comment">Comment</string>
+    <string name="phone">Phone</string>
+    <string name="choose_payment">Choose payment method</string>
+    <string name="spb">SBP</string>
+    <string name="cash">Cash</string>
+    <string name="card">Card</string>
+    <string name="checkout">Order</string>
+    <string name="moreFood">Get more food to make a order</string>
+    <string name="cash_positive">Thank you for the order! Prepare payment %.2f ₽ without change, please </string>
+    <string name="card_positive">Payment was successful, thank you for your order!</string>
+    <string name="goMain">Go to main</string>
+    <string name="back">Back</string>
+    <string name="qr">Scan the qr code for payment %.2f ₽</string>
+    <string name="card_text">Enter your card details for payment %.2f</string>
+    <string name="card_error">Fill in the card details</string>
+    <string name="password_hint">Password</string>
+    <string name="email_hint">Email</string>
+    <string name="password_hint_again">Repeat password</string>
+    <string name="login_hint">Login</string>
+    <string name="log_in">Log In</string>
+    <string name="sign_up">Sign up</string>
+    <string name="sign_out">Log Out</string>
+    <string name="dont_have_acc">Don’t have account?</string>
+    <string name="have_acc">Already have account?</string>
+    <string name="login_error">Error when entering login or password, double-check the data</string>
+    <string name="reg_error">Login error, try again</string>
+    <string name="save">Save</string>
+    <string name="fast_order">Order by click</string>
+    <string name="reg_end">Enter your details completely</string>
+
+</resources>

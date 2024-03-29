@@ -1,0 +1,90 @@
+[
+    {
+        "merged": "C:\\Users\\Alex Khodosok\\.gradle\\daemon\\7.5\\my.lovely.marketanalog.app-mergeDebugResources-51:\\layout\\fragment_sbp_payment.xml",
+        "source": "C:\\Users\\Alex Khodosok\\.gradle\\daemon\\7.5\\my.lovely.marketanalog.app-main-54:\\layout\\fragment_sbp_payment.xml"
+    },
+    {
+        "merged": "C:\\Users\\Alex Khodosok\\.gradle\\daemon\\7.5\\my.lovely.marketanalog.app-mergeDebugResources-51:\\layout\\fragment_login.xml",
+        "source": "C:\\Users\\Alex Khodosok\\.gradle\\daemon\\7.5\\my.lovely.marketanalog.app-main-54:\\layout\\fragment_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\Alex Khodosok\\.gradle\\daemon\\7.5\\my.lovely.marketanalog.app-mergeDebugResources-51:\\layout\\fragment_payment.xml",
+        "source": "C:\\Users\\Alex Khodosok\\.gradle\\daemon\\7.5\\my.lovely.marketanalog.app-main-54:\\layout\\fragment_payment.xml"
+    },
+    {
+        "merged": "C:\\Users\\Alex Khodosok\\.gradle\\daemon\\7.5\\my.lovely.marketanalog.app-mergeDebugResources-51:\\layout\\item_tag.xml",
+        "source": "C:\\Users\\Alex Khodosok\\.gradle\\daemon\\7.5\\my.lovely.marketanalog.app-main-54:\\layout\\item_tag.xml"
+    },
+    {
+        "merged": "C:\\Users\\Alex Khodosok\\.gradle\\daemon\\7.5\\my.lovely.marketanalog.app-mergeDebugResources-51:\\layout\\fragment_card_payment.xml",
+        "source": "C:\\Users\\Alex Khodosok\\.gradle\\daemon\\7.5\\my.lovely.marketanalog.app-main-54:\\layout\\fragment_card_payment.xml"
+    },
+    {
+        "merged": "C:\\Users\\Alex Khodosok\\.gradle\\daemon\\7.5\\my.lovely.marketanalog.app-mergeDebugResources-51:\\layout\\fragment_search.xml",
+        "source": "C:\\Users\\Alex Khodosok\\.gradle\\daemon\\7.5\\my.lovely.marketanalog.app-main-54:\\layout\\fragment_search.xml"
+    },
+    {
+        "merged": "C:\\Users\\Alex Khodosok\\.gradle\\daemon\\7.5\\my.lovely.marketanalog.app-mergeDebugResources-51:\\layout\\alert_dialog_dish_card.xml",
+        "source": "C:\\Users\\Alex Khodosok\\.gradle\\daemon\\7.5\\my.lovely.marketanalog.app-main-54:\\layout\\alert_dialog_dish_card.xml"
+    },
+    {
+        "merged": "C:\\Users\\Alex Khodosok\\.gradle\\daemon\\7.5\\my.lovely.marketanalog.app-mergeDebugResources-51:\\layout\\part_result.xml",
+        "source": "C:\\Users\\Alex Khodosok\\.gradle\\daemon\\7.5\\my.lovely.marketanalog.app-main-54:\\layout\\part_result.xml"
+    },
+    {
+        "merged": "C:\\Users\\Alex Khodosok\\.gradle\\daemon\\7.5\\my.lovely.marketanalog.app-mergeDebugResources-51:\\layout\\fragment_asia_menu.xml",
+        "source": "C:\\Users\\Alex Khodosok\\.gradle\\daemon\\7.5\\my.lovely.marketanalog.app-main-54:\\layout\\fragment_asia_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\Alex Khodosok\\.gradle\\daemon\\7.5\\my.lovely.marketanalog.app-mergeDebugResources-51:\\layout\\fragment_catalog.xml",
+        "source": "C:\\Users\\Alex Khodosok\\.gradle\\daemon\\7.5\\my.lovely.marketanalog.app-main-54:\\layout\\fragment_catalog.xml"
+    },
+    {
+        "merged": "C:\\Users\\Alex Khodosok\\.gradle\\daemon\\7.5\\my.lovely.marketanalog.app-mergeDebugResources-51:\\layout\\fragment_main.xml",
+        "source": "C:\\Users\\Alex Khodosok\\.gradle\\daemon\\7.5\\my.lovely.marketanalog.app-main-54:\\layout\\fragment_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Alex Khodosok\\.gradle\\daemon\\7.5\\my.lovely.marketanalog.app-mergeDebugResources-51:\\layout\\fragment_basket.xml",
+        "source": "C:\\Users\\Alex Khodosok\\.gradle\\daemon\\7.5\\my.lovely.marketanalog.app-main-54:\\layout\\fragment_basket.xml"
+    },
+    {
+        "merged": "C:\\Users\\Alex Khodosok\\.gradle\\daemon\\7.5\\my.lovely.marketanalog.app-mergeDebugResources-51:\\layout\\item_asia_menu.xml",
+        "source": "C:\\Users\\Alex Khodosok\\.gradle\\daemon\\7.5\\my.lovely.marketanalog.app-main-54:\\layout\\item_asia_menu.xml"
+    },
+    {
+        "merged": "my.lovely.marketanalog.app-mergeDebugResources-51:/layout/fragment_payment.xml",
+        "source": "my.lovely.marketanalog.app-main-54:/layout/fragment_payment.xml"
+    },
+    {
+        "merged": "C:\\Users\\Alex Khodosok\\.gradle\\daemon\\7.5\\my.lovely.marketanalog.app-mergeDebugResources-51:\\layout\\alert_dialog_sbp.xml",
+        "source": "C:\\Users\\Alex Khodosok\\.gradle\\daemon\\7.5\\my.lovely.marketanalog.app-main-54:\\layout\\alert_dialog_sbp.xml"
+    },
+    {
+        "merged": "C:\\Users\\Alex Khodosok\\.gradle\\daemon\\7.5\\my.lovely.marketanalog.app-mergeDebugResources-51:\\layout\\item_basket.xml",
+        "source": "C:\\Users\\Alex Khodosok\\.gradle\\daemon\\7.5\\my.lovely.marketanalog.app-main-54:\\layout\\item_basket.xml"
+    },
+    {
+        "merged": "C:\\Users\\Alex Khodosok\\.gradle\\daemon\\7.5\\my.lovely.marketanalog.app-mergeDebugResources-51:\\layout\\alert_dialog_card_payment.xml",
+        "source": "C:\\Users\\Alex Khodosok\\.gradle\\daemon\\7.5\\my.lovely.marketanalog.app-main-54:\\layout\\alert_dialog_card_payment.xml"
+    },
+    {
+        "merged": "C:\\Users\\Alex Khodosok\\.gradle\\daemon\\7.5\\my.lovely.marketanalog.app-mergeDebugResources-51:\\layout\\alert_dialog_cash_positive.xml",
+        "source": "C:\\Users\\Alex Khodosok\\.gradle\\daemon\\7.5\\my.lovely.marketanalog.app-main-54:\\layout\\alert_dialog_cash_positive.xml"
+    },
+    {
+        "merged": "C:\\Users\\Alex Khodosok\\.gradle\\daemon\\7.5\\my.lovely.marketanalog.app-mergeDebugResources-51:\\layout\\fragment_profile.xml",
+        "source": "C:\\Users\\Alex Khodosok\\.gradle\\daemon\\7.5\\my.lovely.marketanalog.app-main-54:\\layout\\fragment_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\Alex Khodosok\\.gradle\\daemon\\7.5\\my.lovely.marketanalog.app-mergeDebugResources-51:\\layout\\fragment_registration.xml",
+        "source": "C:\\Users\\Alex Khodosok\\.gradle\\daemon\\7.5\\my.lovely.marketanalog.app-main-54:\\layout\\fragment_registration.xml"
+    },
+    {
+        "merged": "C:\\Users\\Alex Khodosok\\.gradle\\daemon\\7.5\\my.lovely.marketanalog.app-mergeDebugResources-51:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\Alex Khodosok\\.gradle\\daemon\\7.5\\my.lovely.marketanalog.app-main-54:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Alex Khodosok\\.gradle\\daemon\\7.5\\my.lovely.marketanalog.app-mergeDebugResources-51:\\layout\\item_catalog.xml",
+        "source": "C:\\Users\\Alex Khodosok\\.gradle\\daemon\\7.5\\my.lovely.marketanalog.app-main-54:\\layout\\item_catalog.xml"
+    }
+]

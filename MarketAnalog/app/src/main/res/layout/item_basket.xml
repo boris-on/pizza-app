@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/imCartDish"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/white_gray"
+        android:backgroundTint="@color/white_gray"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/rice1" />
+
+    <TextView
+        android:id="@+id/tvCartDishName"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/sf_medium"
+        android:text="TextView"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/imCartDish"
+        app:layout_constraintTop_toTopOf="@+id/imCartDish" />
+
+    <TextView
+        android:id="@+id/tvCartDishPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/sf_regular"
+        android:text="TextView"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="@+id/tvCartDishName"
+        app:layout_constraintTop_toBottomOf="@+id/tvCartDishName" />
+
+    <TextView
+        android:id="@+id/tvCartDishWeight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="3dp"
+        android:fontFamily="@font/sf_regular"
+        android:text="TextView"
+        android:textColor="@color/gray"
+        app:layout_constraintBottom_toBottomOf="@+id/tvCartDishPrice"
+        app:layout_constraintStart_toEndOf="@+id/tvCartDishPrice"
+        app:layout_constraintTop_toTopOf="@+id/tvCartDishPrice" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:backgroundTint="@color/gray_plus_minus"
+        app:cardCornerRadius="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imCartDish"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.35"
+        app:layout_constraintStart_toEndOf="@+id/tvCartDishName"
+        app:layout_constraintTop_toTopOf="@+id/tvCartDishName"
+        app:layout_constraintVertical_bias="0.29000002">
+
+        <ImageButton
+            android:id="@+id/imBtMinus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|left"
+            android:backgroundTint="@color/gray_plus_minus"
+            app:srcCompat="@drawable/ic_minus" />
+
+        <TextView
+            android:id="@+id/tvCartDishCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/sf_medium"
+            android:text="1"
+            android:textColor="@color/black" />
+
+        <ImageButton
+            android:id="@+id/imBtPlus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|right"
+            android:backgroundTint="@color/gray_plus_minus"
+            app:srcCompat="@drawable/ic_plus" />
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="app_background">#050B18</color>
+    <color name="black">#000000</color>
+    <color name="blue">#3364E0</color>
+    <color name="edit_text_background">#1F2430</color>
+    <color name="gray">#66000000</color>
+    <color name="gray_65">#A6000000</color>
+    <color name="gray_plus_minus">#EFEEEC</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="red">#EA1A1A</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="text_hint">#696C75</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="white_gray">#F8F7F5</color>
+    <color name="yellow">#F4D144</color>
+    <string name="add_to_cart">Add to cart</string>
+    <string name="adress">Adress</string>
+    <string name="app_name" translatable="false">MarketAnalog</string>
+    <string name="back">Back</string>
+    <string name="basket">Basket</string>
+    <string name="card">Card</string>
+    <string name="card_error">Fill in the card details</string>
+    <string name="card_positive">Payment was successful, thank you for your order!</string>
+    <string name="card_text">Enter your card details for payment %.2f</string>
+    <string name="cash">Cash</string>
+    <string name="cash_positive">Thank you for the order! Prepare payment %.2f ₽ without change, please </string>
+    <string name="checkout">Order</string>
+    <string name="choose_payment">Choose payment method</string>
+    <string name="comment">Comment</string>
+    <string name="dont_have_acc">Don’t have account?</string>
+    <string name="email">Email</string>
+    <string name="email_hint">Email</string>
+    <string name="error">Oops Error! Please try again later</string>
+    <string name="fast_order">Order by click</string>
+    <string name="goMain">Go to main</string>
+    <string name="have_acc">Already have account?</string>
+    <string name="log_in">Log In</string>
+    <string name="login_error">Error when entering login or password, double-check the data</string>
+    <string name="login_hint">Login</string>
+    <string name="main">Main</string>
+    <string name="moreFood">Get more food to make a order</string>
+    <string name="password_hint">Password</string>
+    <string name="password_hint_again">Repeat password</string>
+    <string name="pay">Pay: </string>
+    <string name="paymentScreen">Payment Screen</string>
+    <string name="phone">Phone</string>
+    <string name="profile">Profile</string>
+    <string name="qr">Scan the qr code for payment %.2f ₽</string>
+    <string name="reg_end">Enter your details completely</string>
+    <string name="reg_error">Login error, try again</string>
+    <string name="save">Save</string>
+    <string name="search">Search</string>
+    <string name="sign_out">Log Out</string>
+    <string name="sign_up">Sign up</string>
+    <string name="spb">SBP</string>
+    <string name="try_again">TRY AGAIN</string>
+    <style name="Theme.MarketAnalog" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        
+        <item name="colorPrimary">@color/blue</item>
+        <item name="colorPrimaryVariant">@color/blue</item>
+        <item name="colorOnPrimary">@color/white</item>
+        
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/black</item>
+        <item name="colorOnSecondary">@color/black</item>
+        
+        <item name="android:statusBarColor">@color/blue</item>
+        
+    </style>
+</resources>

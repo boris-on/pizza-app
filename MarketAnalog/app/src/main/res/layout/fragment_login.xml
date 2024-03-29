@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:backgroundTint="@color/app_background"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="100dp"
+            android:foregroundGravity="center"
+            app:srcCompat="@drawable/pizza" />
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:id="@+id/linearLogHide"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvLogError"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/sf_medium"
+                android:gravity="center"
+                android:text="TextView"
+                android:textColor="@color/red"
+                android:textSize="15sp"
+                android:visibility="gone" />
+
+            <EditText
+                android:id="@+id/edLogLogin"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/edit_text_background"
+                android:backgroundTint="@color/gray_plus_minus"
+                android:ems="10"
+                android:fontFamily="@font/sf_medium"
+                android:hint="@string/login_hint"
+                android:inputType="textPersonName"
+                android:paddingLeft="10dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/text_hint"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/edLogPasswd"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/edit_text_background"
+                android:backgroundTint="@color/gray_plus_minus"
+                android:ems="10"
+                android:fontFamily="@font/sf_medium"
+                android:hint="@string/password_hint"
+                android:inputType="textPersonName"
+                android:paddingLeft="10dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/text_hint"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/btLogIn"
+                android:layout_width="300dp"
+                android:layout_height="56dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="50dp"
+                android:backgroundTint="@color/yellow"
+                android:fontFamily="@font/sf_medium"
+                android:text="@string/log_in"
+                android:textColor="@color/black"
+                app:cornerRadius="4dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tvLogRegistrationConst"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/sf_medium"
+                    android:gravity="center"
+                    android:text="@string/dont_have_acc"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/tvLogRegistration"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="3dp"
+                    android:fontFamily="@font/sf_medium"
+                    android:gravity="center"
+                    android:text="@string/sign_up"
+                    android:textColor="@color/yellow" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

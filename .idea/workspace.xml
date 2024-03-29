@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c431fa3b-afbd-4349-b8ff-1116519b0e80" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/MarketAnalog/app/src/main/ic_launcher-playstore.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MarketAnalog/app/src/main/java/my/lovely/marketanalog/SharedPrefsService.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MarketAnalog/app/src/main/java/my/lovely/marketanalog/presentation/login/LoginFragment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MarketAnalog/app/src/main/java/my/lovely/marketanalog/presentation/login/LoginViewModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MarketAnalog/app/src/main/java/my/lovely/marketanalog/presentation/profile/ProfileViewModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MarketAnalog/app/src/main/java/my/lovely/marketanalog/presentation/registration/RegistrationFragment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MarketAnalog/app/src/main/java/my/lovely/marketanalog/presentation/registration/RegistrationViewModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MarketAnalog/app/src/main/res/drawable/app_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MarketAnalog/app/src/main/res/drawable/edit_text_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MarketAnalog/app/src/main/res/drawable/pizza.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MarketAnalog/app/src/main/res/drawable/rickroll.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MarketAnalog/app/src/main/res/drawable/trackerlogo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MarketAnalog/app/src/main/res/layout/alert_dialog_sbp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MarketAnalog/app/src/main/res/layout/fragment_login.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MarketAnalog/app/src/main/res/layout/fragment_registration.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MarketAnalog/app/src/main/res/mipmap-hdpi/ic_launcher_foreground.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MarketAnalog/app/src/main/res/mipmap-mdpi/ic_launcher_foreground.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MarketAnalog/app/src/main/res/mipmap-xhdpi/ic_launcher_foreground.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MarketAnalog/app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MarketAnalog/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MarketAnalog/data/src/main/java/my/lovely/data/api/AuthorisationObjet.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MarketAnalog/data/src/main/java/my/lovely/data/api/LoginService.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MarketAnalog/data/src/main/java/my/lovely/data/api/RegistrationService.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MarketAnalog/data/src/main/java/my/lovely/data/api/UserService.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MarketAnalog/data/src/main/java/my/lovely/data/repository/GetDataRepositoryImpl.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MarketAnalog/data/src/main/java/my/lovely/data/repository/LoginRepositoryImpl.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MarketAnalog/data/src/main/java/my/lovely/data/repository/RegistrationRepositoryImpl.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MarketAnalog/domain/src/main/java/my/lovely/domain/model/LoginRequest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MarketAnalog/domain/src/main/java/my/lovely/domain/model/RegistrationRequest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MarketAnalog/domain/src/main/java/my/lovely/domain/model/RegistrationResponse.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MarketAnalog/domain/src/main/java/my/lovely/domain/model/UserRequest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MarketAnalog/domain/src/main/java/my/lovely/domain/model/UserResponse.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MarketAnalog/domain/src/main/java/my/lovely/domain/repository/GetDataRepository.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MarketAnalog/domain/src/main/java/my/lovely/domain/repository/LoginRepository.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MarketAnalog/domain/src/main/java/my/lovely/domain/repository/RegistrationRepository.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MarketAnalog/domain/src/main/java/my/lovely/domain/usecase/RequestLoginUseCase.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MarketAnalog/domain/src/main/java/my/lovely/domain/usecase/RequestRegistrationUseCase.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MarketAnalog/domain/src/main/java/my/lovely/domain/usecase/ResponseUserInfoUseCase.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarketAnalog" beforeDir="false" afterPath="$PROJECT_DIR$/MarketAnalog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarketAnalog/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarketAnalog/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarketAnalog/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarketAnalog/.idea/deploymentTargetDropDown.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarketAnalog/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarketAnalog/.idea/kotlinc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarketAnalog/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarketAnalog/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarketAnalog/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarketAnalog/app/src/main/java/my/lovely/marketanalog/app/App.kt" beforeDir="false" afterPath="$PROJECT_DIR$/MarketAnalog/app/src/main/java/my/lovely/marketanalog/app/App.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarketAnalog/app/src/main/java/my/lovely/marketanalog/di/DataModule.kt" beforeDir="false" afterPath="$PROJECT_DIR$/MarketAnalog/app/src/main/java/my/lovely/marketanalog/di/DataModule.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarketAnalog/app/src/main/java/my/lovely/marketanalog/di/DomainModule.kt" beforeDir="false" afterPath="$PROJECT_DIR$/MarketAnalog/app/src/main/java/my/lovely/marketanalog/di/DomainModule.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarketAnalog/app/src/main/java/my/lovely/marketanalog/presentation/basket/BasketFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/MarketAnalog/app/src/main/java/my/lovely/marketanalog/presentation/basket/BasketFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarketAnalog/app/src/main/java/my/lovely/marketanalog/presentation/card/CardFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/MarketAnalog/app/src/main/java/my/lovely/marketanalog/presentation/card/CardFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarketAnalog/app/src/main/java/my/lovely/marketanalog/presentation/menu_asia/AsiaFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/MarketAnalog/app/src/main/java/my/lovely/marketanalog/presentation/menu_asia/AsiaFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarketAnalog/app/src/main/java/my/lovely/marketanalog/presentation/menu_asia/TagAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/MarketAnalog/app/src/main/java/my/lovely/marketanalog/presentation/menu_asia/TagAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarketAnalog/app/src/main/java/my/lovely/marketanalog/presentation/pay/PaymentFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/MarketAnalog/app/src/main/java/my/lovely/marketanalog/presentation/pay/PaymentFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarketAnalog/app/src/main/java/my/lovely/marketanalog/presentation/profile/ProfileFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/MarketAnalog/app/src/main/java/my/lovely/marketanalog/presentation/profile/ProfileFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarketAnalog/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MarketAnalog/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarketAnalog/app/src/main/res/layout/alert_dialog_dish_card.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MarketAnalog/app/src/main/res/layout/alert_dialog_dish_card.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarketAnalog/app/src/main/res/layout/fragment_asia_menu.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MarketAnalog/app/src/main/res/layout/fragment_asia_menu.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarketAnalog/app/src/main/res/layout/fragment_basket.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MarketAnalog/app/src/main/res/layout/fragment_basket.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarketAnalog/app/src/main/res/layout/fragment_payment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MarketAnalog/app/src/main/res/layout/fragment_payment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarketAnalog/app/src/main/res/layout/fragment_profile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MarketAnalog/app/src/main/res/layout/fragment_profile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarketAnalog/app/src/main/res/layout/item_asia_menu.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MarketAnalog/app/src/main/res/layout/item_asia_menu.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarketAnalog/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MarketAnalog/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarketAnalog/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MarketAnalog/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarketAnalog/app/src/main/res/mipmap-anydpi-v33/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarketAnalog/app/src/main/res/mipmap-hdpi/ic_launcher.webp" beforeDir="false" afterPath="$PROJECT_DIR$/MarketAnalog/app/src/main/res/mipmap-hdpi/ic_launcher.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarketAnalog/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" beforeDir="false" afterPath="$PROJECT_DIR$/MarketAnalog/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarketAnalog/app/src/main/res/mipmap-mdpi/ic_launcher.webp" beforeDir="false" afterPath="$PROJECT_DIR$/MarketAnalog/app/src/main/res/mipmap-mdpi/ic_launcher.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarketAnalog/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" beforeDir="false" afterPath="$PROJECT_DIR$/MarketAnalog/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarketAnalog/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" beforeDir="false" afterPath="$PROJECT_DIR$/MarketAnalog/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarketAnalog/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" beforeDir="false" afterPath="$PROJECT_DIR$/MarketAnalog/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarketAnalog/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" beforeDir="false" afterPath="$PROJECT_DIR$/MarketAnalog/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarketAnalog/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" beforeDir="false" afterPath="$PROJECT_DIR$/MarketAnalog/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarketAnalog/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" beforeDir="false" afterPath="$PROJECT_DIR$/MarketAnalog/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarketAnalog/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" beforeDir="false" afterPath="$PROJECT_DIR$/MarketAnalog/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarketAnalog/app/src/main/res/navigation/nav_graph.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MarketAnalog/app/src/main/res/navigation/nav_graph.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarketAnalog/app/src/main/res/values-ru/string.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MarketAnalog/app/src/main/res/values-ru/string.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarketAnalog/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MarketAnalog/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarketAnalog/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MarketAnalog/app/src/main/res/values/strings.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/MarketAnalog" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2eNRpBva9tQqMF3OPIpOGjKruyW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "Y:/PizzaApp",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\Alex Khodosok\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c431fa3b-afbd-4349-b8ff-1116519b0e80" name="Changes" comment="" />
+      <created>1711743230058</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1711743230058</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+      <path value="$PROJECT_DIR$/MarketAnalog" />
+    </ignored-roots>
+  </component>
+</project>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="add_to_cart">Добавить в корзину</string>
+    <string name="adress">Адрес доставки</string>
+    <string name="back">Назад</string>
+    <string name="basket">Корзина</string>
+    <string name="card">Карта</string>
+    <string name="card_error">Заполните данные от карты </string>
+    <string name="card_positive">Оплата прошла успешно, спасибо за заказ!</string>
+    <string name="card_text">Введите данные от карты для оплаты %.2f</string>
+    <string name="cash">Наличные</string>
+    <string name="cash_positive">Спасибо за заказ! Подготовьте оплату без сдачи %.2f ₽, пожалуйста</string>
+    <string name="checkout">Оформить</string>
+    <string name="choose_payment">Выберите способ оплаты</string>
+    <string name="comment">Комментарий к заказу</string>
+    <string name="dont_have_acc">Нет аккаунта?</string>
+    <string name="email">Email</string>
+    <string name="email_hint">Email</string>
+    <string name="error">Упс, Ошибка! Пожалуйста попробуйте позже</string>
+    <string name="fast_order">Заказать в клик</string>
+    <string name="goMain">Вернуться на главную</string>
+    <string name="have_acc">Уже есть аккаунт?</string>
+    <string name="log_in">Войти</string>
+    <string name="login_error">Ошибка при вводе логина или пароля, перепроверьте данные</string>
+    <string name="login_hint">Логин</string>
+    <string name="main">Главная</string>
+    <string name="moreFood">Добавьте больше товаров для оформления заказа</string>
+    <string name="password_hint">Пароль</string>
+    <string name="password_hint_again">Повторите пароль</string>
+    <string name="pay">Оплатить: </string>
+    <string name="paymentScreen">Оформление заказа</string>
+    <string name="phone">Номер телефона</string>
+    <string name="profile">Аккаунт</string>
+    <string name="qr">Отсканируйте Qr код для оплаты %.2f ₽</string>
+    <string name="reg_end">Введите данные до конца</string>
+    <string name="reg_error">Ошибка при авторизации, попробуйте ещё раз</string>
+    <string name="save">Сохранить</string>
+    <string name="search">Поиск</string>
+    <string name="sign_out">Выход</string>
+    <string name="sign_up">Зарегистрироваться</string>
+    <string name="spb">СБП</string>
+    <string name="try_again">ПЕРЕЗАГРУЗКА</string>
+</resources>

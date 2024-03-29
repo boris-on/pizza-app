@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/asiaFragment">
+
+    <fragment
+        android:id="@+id/asiaFragment"
+        android:name="my.lovely.marketanalog.presentation.menu_asia.AsiaFragment"
+        android:label="asiaFragment" >
+        <action
+            android:id="@+id/action_asiaFragment_to_basketFragment"
+            app:destination="@id/basketFragment" />
+        <action
+            android:id="@+id/action_asiaFragment_to_profileFragment"
+            app:destination="@id/profileFragment" />
+        <action
+            android:id="@+id/action_asiaFragment_to_paymentFragment"
+            app:destination="@id/paymentFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="my.lovely.marketanalog.presentation.search.SearchFragment"
+        android:label="searchFragment" >
+        <action
+            android:id="@+id/action_searchFragment_to_basketFragment"
+            app:destination="@id/basketFragment" />
+        <action
+            android:id="@+id/action_searchFragment_to_profileFragment"
+            app:destination="@id/profileFragment" />
+        <action
+            android:id="@+id/action_searchFragment_to_paymentFragment"
+            app:destination="@id/paymentFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="my.lovely.marketanalog.presentation.profile.ProfileFragment"
+        android:label="profileFragment" >
+        <action
+            android:id="@+id/action_profileFragment_to_searchFragment"
+            app:destination="@id/searchFragment"
+            app:popUpTo="@id/nav_graph"
+            app:popUpToInclusive="true"/>
+        <action
+            android:id="@+id/action_profileFragment_to_basketFragment"
+            app:destination="@id/basketFragment"
+            app:popUpTo="@id/nav_graph"
+            app:popUpToInclusive="true"/>
+        <action
+            android:id="@+id/action_profileFragment_to_asiaFragment"
+            app:destination="@id/asiaFragment"
+            app:popUpTo="@id/nav_graph"
+            app:popUpToInclusive="true"/>
+        <action
+            android:id="@+id/action_profileFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+        <action
+            android:id="@+id/action_profileFragment_to_registrationFragment"
+            app:destination="@id/registrationFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/basketFragment"
+        android:name="my.lovely.marketanalog.presentation.basket.BasketFragment"
+        android:label="basketFragment" >
+        <action
+            android:id="@+id/action_basketFragment_to_searchFragment"
+            app:destination="@id/searchFragment"
+            app:popUpTo="@id/nav_graph"
+            app:popUpToInclusive="true"/>
+        <action
+            android:id="@+id/action_basketFragment_to_profileFragment"
+            app:destination="@id/profileFragment"
+            app:popUpTo="@id/nav_graph"
+            app:popUpToInclusive="true"/>
+        <action
+            android:id="@+id/action_basketFragment_to_asiaFragment"
+            app:destination="@id/asiaFragment"
+            app:popUpTo="@id/nav_graph"
+            app:popUpToInclusive="true"/>
+        <action
+            android:id="@+id/action_basketFragment_to_paymentFragment"
+            app:destination="@id/paymentFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/paymentFragment"
+        android:name="my.lovely.marketanalog.presentation.pay.PaymentFragment"
+        android:label="PaymentFragment" >
+        <action
+            android:id="@+id/action_paymentFragment_to_basketFragment"
+            app:destination="@id/basketFragment" />
+        <action
+            android:id="@+id/action_paymentFragment_to_asiaFragment"
+            app:destination="@id/asiaFragment"
+            app:popUpTo="@id/nav_graph"
+            app:popUpToInclusive="true"/>
+        <action
+            android:id="@+id/action_paymentFragment_to_cardFragment"
+            app:destination="@id/cardFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/cardFragment"
+        android:name="my.lovely.marketanalog.presentation.card.CardFragment"
+        android:label="CardFragment" >
+        <action
+            android:id="@+id/action_cardFragment_to_paymentFragment"
+            app:destination="@id/paymentFragment" />
+        <action
+            android:id="@+id/action_cardFragment_to_asiaFragment"
+            app:destination="@id/asiaFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="my.lovely.marketanalog.presentation.login.LoginFragment"
+        android:label="LoginFragment" >
+        <action
+            android:id="@+id/action_loginFragment_to_profileFragment"
+            app:destination="@id/profileFragment" />
+        <action
+            android:id="@+id/action_loginFragment_to_registrationFragment"
+            app:destination="@id/registrationFragment" />
+        <action
+            android:id="@+id/action_loginFragment_to_profileFragment2"
+            app:destination="@id/profileFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/registrationFragment"
+        android:name="my.lovely.marketanalog.presentation.registration.RegistrationFragment"
+        android:label="RegistrationFragment" >
+        <action
+            android:id="@+id/action_registrationFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+        <action
+            android:id="@+id/action_registrationFragment_to_profileFragment"
+            app:destination="@id/profileFragment" />
+    </fragment>
+</navigation>

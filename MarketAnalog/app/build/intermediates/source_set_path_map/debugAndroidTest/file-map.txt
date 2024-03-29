@@ -1,0 +1,5 @@
+my.lovely.marketanalog.test.app-androidTest-0 Y:\MarketAnalog\app\build\generated\res\resValues\androidTest\debug
+my.lovely.marketanalog.test.app-androidTest-1 Y:\MarketAnalog\app\build\generated\res\rs\androidTest\debug
+my.lovely.marketanalog.test.app-mergeDebugAndroidTestResources-2 Y:\MarketAnalog\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+my.lovely.marketanalog.test.app-mergeDebugAndroidTestResources-3 Y:\MarketAnalog\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+my.lovely.marketanalog.test.app-merged_res-4 Y:\MarketAnalog\app\build\intermediates\merged_res\debugAndroidTest
