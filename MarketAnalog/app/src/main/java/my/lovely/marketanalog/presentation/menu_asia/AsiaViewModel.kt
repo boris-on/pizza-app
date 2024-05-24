@@ -1,5 +1,6 @@
 package my.lovely.marketanalog.presentation.menu_asia
 
+import android.util.Log
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
@@ -39,6 +40,7 @@ class AsiaViewModel @Inject constructor(
     fun asiaMenuResponse() = viewModelScope.launch(Dispatchers.IO) {
         progressBarLiveData.postValue(true)
         val result = getAsiaMenuUseCase.getAsiaMenu()
+        Log.d("MyLog","asia menu ${result?.body()}")
         asiaMenuLiveData.postValue(result?.body())
         progressBarLiveData.postValue(false)
     }

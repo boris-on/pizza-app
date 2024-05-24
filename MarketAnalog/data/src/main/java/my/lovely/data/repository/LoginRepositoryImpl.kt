@@ -1,6 +1,5 @@
 package my.lovely.data.repository
 
-import android.util.Log
 import my.lovely.data.api.LoginService
 import my.lovely.domain.model.LoginRequest
 import my.lovely.domain.repository.LoginRepository
@@ -15,7 +14,6 @@ class LoginRepositoryImpl @Inject constructor(private val loginService: LoginSer
             val result = loginService.sendPostLogin(loginModel = LoginRequest(login = login, password = password))
             result
         } catch (e: java.net.UnknownHostException){
-            Log.d("MyLog",e.toString())
             null
         }
     }

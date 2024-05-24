@@ -45,13 +45,13 @@ my.lovely.marketanalog.app-navigation-common-ktx-2.5.3-43 C:\Users\Alex Khodosok
 my.lovely.marketanalog.app-sqlite-framework-2.3.1-44 C:\Users\Alex Khodosok\.gradle\caches\transforms-3\f450644af6e497a289b24cb4536945a5\transformed\sqlite-framework-2.3.1\res
 my.lovely.marketanalog.app-lifecycle-process-2.4.1-45 C:\Users\Alex Khodosok\.gradle\caches\transforms-3\f45798e2351525c4eeb97ad83bb029c2\transformed\lifecycle-process-2.4.1\res
 my.lovely.marketanalog.app-drawerlayout-1.1.1-46 C:\Users\Alex Khodosok\.gradle\caches\transforms-3\f560eb89803e44acf2ca8856cdae33c9\transformed\drawerlayout-1.1.1\res
-my.lovely.marketanalog.app-pngs-47 Y:\MarketAnalog\app\build\generated\res\pngs\debug
-my.lovely.marketanalog.app-resValues-48 Y:\MarketAnalog\app\build\generated\res\resValues\debug
-my.lovely.marketanalog.app-rs-49 Y:\MarketAnalog\app\build\generated\res\rs\debug
-my.lovely.marketanalog.app-packageDebugResources-50 Y:\MarketAnalog\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
-my.lovely.marketanalog.app-packageDebugResources-51 Y:\MarketAnalog\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
-my.lovely.marketanalog.app-merged_res-52 Y:\MarketAnalog\app\build\intermediates\merged_res\debug
-my.lovely.marketanalog.app-debug-53 Y:\MarketAnalog\app\src\debug\res
-my.lovely.marketanalog.app-main-54 Y:\MarketAnalog\app\src\main\res
-my.lovely.marketanalog.app-packaged_res-55 Y:\MarketAnalog\data\build\intermediates\packaged_res\debug
-my.lovely.marketanalog.app-packaged_res-56 Y:\MarketAnalog\domain\build\intermediates\packaged_res\debug
+my.lovely.marketanalog.app-pngs-47 Y:\PizzaApp\MarketAnalog\app\build\generated\res\pngs\debug
+my.lovely.marketanalog.app-resValues-48 Y:\PizzaApp\MarketAnalog\app\build\generated\res\resValues\debug
+my.lovely.marketanalog.app-rs-49 Y:\PizzaApp\MarketAnalog\app\build\generated\res\rs\debug
+my.lovely.marketanalog.app-packageDebugResources-50 Y:\PizzaApp\MarketAnalog\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+my.lovely.marketanalog.app-packageDebugResources-51 Y:\PizzaApp\MarketAnalog\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+my.lovely.marketanalog.app-merged_res-52 Y:\PizzaApp\MarketAnalog\app\build\intermediates\merged_res\debug
+my.lovely.marketanalog.app-debug-53 Y:\PizzaApp\MarketAnalog\app\src\debug\res
+my.lovely.marketanalog.app-main-54 Y:\PizzaApp\MarketAnalog\app\src\main\res
+my.lovely.marketanalog.app-packaged_res-55 Y:\PizzaApp\MarketAnalog\data\build\intermediates\packaged_res\debug
+my.lovely.marketanalog.app-packaged_res-56 Y:\PizzaApp\MarketAnalog\domain\build\intermediates\packaged_res\debug

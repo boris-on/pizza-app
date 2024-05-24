@@ -7,7 +7,7 @@ import retrofit2.http.GET
 
 interface AsiaMenuDataService {
 
-    @GET("a0b15c26-5759-47e4-b040-badb0ecc795b")
+    @GET("getAllDishes")
     suspend fun getAsiaMenu(): Response<AsiaResponse>
 
 }

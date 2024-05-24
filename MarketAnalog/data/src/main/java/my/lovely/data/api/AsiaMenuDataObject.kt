@@ -10,7 +10,7 @@ import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 import javax.inject.Singleton
 
-private const val BASE_URL = "https://run.mocky.io/v3/"
+private const val BASE_URL = "http://31.129.104.112:8099/"
 
 @Module
 @InstallIn(SingletonComponent::class)
@@ -21,7 +21,6 @@ object AsiaMenuDataObject {
     @Provides
     @Singleton
     fun getInstance() : AsiaMenuDataService {
-
         val interceptor = HttpLoggingInterceptor()
         interceptor.level = HttpLoggingInterceptor.Level.BODY
         val client = OkHttpClient.Builder().addInterceptor(interceptor).build()

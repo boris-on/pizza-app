@@ -1,6 +1,5 @@
 package my.lovely.data.repository
 
-import android.util.Log
 import my.lovely.data.api.RegistrationService
 import my.lovely.domain.model.RegistrationRequest
 import my.lovely.domain.repository.RegistrationRepository
@@ -15,7 +14,6 @@ class RegistrationRepositoryImpl @Inject constructor(private val registrationSer
             val result = registrationService.sendPostRegistration(registrationModel = RegistrationRequest(login = login, password = password, email = email, phone = phone, address = adress))
             result
         } catch (e: java.net.UnknownHostException){
-            Log.d("MyLog",e.toString())
             null
         }
     }

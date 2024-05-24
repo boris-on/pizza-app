@@ -4,7 +4,6 @@ import android.app.Dialog
 import android.graphics.Color
 import android.graphics.drawable.ColorDrawable
 import android.os.Bundle
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -171,7 +170,7 @@ class AsiaFragment : Fragment(R.layout.fragment_asia_menu) {
             id = 0,
             name = dishData.name,
             price = dishData.price,
-            weight = dishData.weight,
+            weight = dishData.weight ?: 0,
             count = 1,
             image = dishData.image_url
         )

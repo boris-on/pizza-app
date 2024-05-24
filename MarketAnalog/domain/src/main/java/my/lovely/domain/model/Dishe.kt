@@ -8,7 +8,7 @@ data class Dishe(
     val image_url: String,
     val name: String,
     val price: Int,
-    //@SerializedName("tags")
+    @SerializedName("tags")
     val tegs: List<String>,
-    val weight: Int
+    val weight: Int?
 )
