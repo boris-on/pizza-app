@@ -78,6 +78,7 @@ class AsiaFragment : Fragment(R.layout.fragment_asia_menu) {
         asiaViewModel.asiaMenuResponse()
 
         btErrorTryAgain.setOnClickListener {
+            //sdfsdf
             asiaViewModel.asiaMenuResponse()
         }
 
