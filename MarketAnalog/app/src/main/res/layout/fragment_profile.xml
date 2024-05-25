@@ -102,17 +102,6 @@
                 android:textSize="18sp" />
 
             <Button
-                android:id="@+id/btSave"
-                android:layout_width="300dp"
-                android:layout_height="56dp"
-                android:layout_gravity="center"
-                android:layout_marginTop="50dp"
-                android:backgroundTint="@color/yellow"
-                android:text="@string/save"
-                android:textColor="@color/black"
-                app:cornerRadius="4dp" />
-
-            <Button
                 android:id="@+id/btProfileExit"
                 android:layout_width="300dp"
                 android:layout_height="56dp"

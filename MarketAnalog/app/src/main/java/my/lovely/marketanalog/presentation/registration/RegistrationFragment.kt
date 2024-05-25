@@ -54,7 +54,7 @@ class RegistrationFragment: Fragment(R.layout.fragment_registration) {
                 Toast.makeText(context, R.string.reg_end, Toast.LENGTH_SHORT).show()
             }
 
-            registrationViewModel.sendPostRegistration(login = login, password = passwd, email = email, number = number.substring(0,10).toInt(), adress = adress )
+            registrationViewModel.sendPostRegistration(login = login, password = passwd, email = email, number = number.toInt(), adress = adress )
             registrationViewModel.registration.observe(viewLifecycleOwner){
                 if(it == 200){
                     findNavController().navigate(R.id.action_registrationFragment_to_loginFragment)

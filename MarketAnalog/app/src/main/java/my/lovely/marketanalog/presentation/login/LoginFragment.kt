@@ -51,7 +51,7 @@ class LoginFragment: Fragment(R.layout.fragment_login) {
                 if(it.code == 200){
                     SharedPrefsService.putIsUserLogin(value = true)
                     SharedPrefsService.putUserLogin(value = login)
-                    findNavController().navigate(R.id.action_loginFragment_to_profileFragment2)
+                    findNavController().navigate(R.id.action_loginFragment_to_asiaFragment)
                 } else {
                     binding.tvLogError.text = getString(R.string.login_error)
                     binding.tvLogError.isVisible = true

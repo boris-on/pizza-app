@@ -121,6 +121,9 @@
         <action
             android:id="@+id/action_loginFragment_to_profileFragment2"
             app:destination="@id/profileFragment" />
+        <action
+            android:id="@+id/action_loginFragment_to_asiaFragment"
+            app:destination="@id/asiaFragment" />
     </fragment>
     <fragment
         android:id="@+id/registrationFragment"
